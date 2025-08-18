@@ -26,7 +26,7 @@ export default function WorkflowsPage() {
                   <div>
                     <h4 className="font-medium text-gray-900 dark:text-white">{workflow.name}</h4>
                     <p className="text-sm text-gray-500 dark:text-gray-300">
-                      Trigger: &quot;{workflow.trigger}&quot;
+                      Triggers: &quot;{workflow.trigger}&quot;
                     </p>
                   </div>
                 </div>
