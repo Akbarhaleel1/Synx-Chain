@@ -365,8 +365,7 @@ const ChatbotDashboard = () => {
                   </div>
                   <div>
                     <h4 className={`font-medium ${baseClasses.text}`}>{workflow.name}</h4>
-                    <p className={`text-sm ${baseClasses.textSecondary}`}>Trigger: "{workflow.trigger}"</p>
-                  </div>
+<p className={`text-sm ${baseClasses.textSecondary}`}>Trigger: &quot;{workflow.trigger}&quot;</p>                  </div>
                 </div>
                 
                 <div className="flex items-center space-x-4">
