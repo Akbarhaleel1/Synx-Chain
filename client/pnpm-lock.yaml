@@ -63,6 +63,9 @@ importers:
         specifier: ^1.0.10
         version: 1.0.12(@types/react@18.3.12)(tailwindcss@3.4.17)
     devDependencies:
+      '@babel/core':
+        specifier: ^7.28.3
+        version: 7.28.3
       '@babel/preset-react':
         specifier: ^7.26.3
         version: 7.27.1(@babel/core@7.28.3)
@@ -79,7 +82,7 @@ importers:
         specifier: ^8.57.1
         version: 8.57.1
       eslint-config-next:
-        specifier: ^15.1.7
+        specifier: ^15.4.6
         version: 15.4.6(eslint@8.57.1)(typescript@5.6.3)
       next:
         specifier: ^15.1.7

@@ -29,12 +29,13 @@
     "validis": "^1.0.10"
   },
   "devDependencies": {
+    "@babel/core": "^7.28.3",
     "@babel/preset-react": "^7.26.3",
     "@types/node": "22.7.9",
     "@types/react": "18.3.12",
     "autoprefixer": "^10.4.20",
     "eslint": "^8.57.1",
-    "eslint-config-next": "^15.1.7",
+    "eslint-config-next": "^15.4.6",
     "next": "^15.1.7",
     "postcss": "^8.4.47",
     "shadcn-ui": "^0.9.4",
