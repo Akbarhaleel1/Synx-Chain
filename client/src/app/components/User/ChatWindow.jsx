@@ -39,6 +39,7 @@ const ChatWindow = () => {
       localStorage.setItem('chat_session', id);
     }
     setSessionId(id);
+console.log("API_BASE_URL:", process.env.NEXT_PUBLIC_API_BASE_URL);
 
     // ✅ Setup socket connection
     // const socket = io('http://localhost:5000/webchat', {
