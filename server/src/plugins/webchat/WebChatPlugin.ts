@@ -7,7 +7,7 @@ export const handleIncomingMessage = async (from: string, body: string) => {
   emitNewWebChatMessage(message);
 
   // Trigger plugins here
-  triggerPluginEngine(message);
+  // triggerPluginEngine(message);
 };
 
 export const sendMessage = async (to: string, body: string) => {

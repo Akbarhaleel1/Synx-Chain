@@ -7,8 +7,7 @@ import ChatWindow from './components/User/ChatWindow'
 const page = () => {
   return (
       <div>
-          {/* <ChatbotDashboard /> */}
-          <ChatWindow />
+          <ChatbotDashboard />
       </div>
   )
 }

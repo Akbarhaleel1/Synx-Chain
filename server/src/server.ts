@@ -4,8 +4,13 @@ import cors from 'cors';
 import connectDatabase from './config/datebase';
 import { registerWhatsAppPlugin } from './plugins/whatsapp';
 import { initSockets } from './sockets/socket';
+import { registerWebChatPlugin } from './plugins/webchat';
+import dotenv from 'dotenv';
+
+dotenv.config()
 
 const app = express();
+
 
 // Middleware
 app.use(cors({
@@ -17,6 +22,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Database & plugins
 connectDatabase();
+registerWebChatPlugin(app);
 registerWhatsAppPlugin(app);
 
 // Create HTTP server
